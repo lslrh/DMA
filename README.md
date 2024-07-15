@@ -1,4 +1,4 @@
-# Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding
+# Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding, ECCV2024
 
 ### [Paper]() 
 
