@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {   
+            "python": "/home/liruihuang/anaconda3/envs/sam3d/bin/python",
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--config", "./config/nuscenes/ours_openseg.yaml", "save_path", "./output"],
+            // "args": ["--config", "./config/nuscenes/ours_openseg.yaml", "feature_type", "distill", "save_folder", "./save"],
+            // "args": ["--config", "./config/scannet/ours_lseg_pretrained.yaml", "feature_type", "distill", "save_folder", "./save"],
+            // "args": ["--config", "./config/scannet/ours_openseg.yaml", "save_path", "./output"],
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    ]
+}
