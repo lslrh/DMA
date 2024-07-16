@@ -13,7 +13,6 @@ Recent vision-language pre-training models have exhibited remarkable generalizat
 - **2024.07.02**: DMA is accepted by ECCV 2024!
 
 ## Data Preparation 
-Download [Cityscapes](https://www.cityscapes-dataset.com/), [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/) and [SYNTHIA-RAND-CITYSCAPES](http://synthia-dataset.net/downloads/).
 
 We expect the folders to be like
 ```
