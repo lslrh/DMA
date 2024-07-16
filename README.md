@@ -18,19 +18,31 @@ Download [Cityscapes](https://www.cityscapes-dataset.com/), [GTA5](https://downl
 We expect the folders to be like
 ```
 └── data
-    ├── cityscapes
-    │   ├── annotations
-    │   ├── gtFine
-    │   └── leftImg8bit
-    ├── GTA5
-    │   ├── images
-    │   ├── labels
-    │   └── split.mat
-    ├── SYNTHIA
-    │   ├── GT
-    │   ├── RGB
-    └── └── meta.json
-
+    ├── data_scannet
+    │   ├── scannet_2d
+    │   ├── scannet_3d
+    │   ├── scannet_200
+    │   ├── scannet_multiview_openseg
+    │   └── scannet_multiview_lseg 
+    ├── data_nus
+    │   ├── nuscenes_2d
+    │   ├── nuscenes_3d
+    │   ├── nuscenes_multiview_openseg
+    │   ├── nuscenes_multiview_openseg_val
+    │   └── nuscenes_multiview_fcclip
+    ├── data_matterport
+    │   ├── matterport_2d
+    │   ├── matterport_3d
+    │   ├── matterport_3d_40
+    │   ├── matterport_3d_80
+    │   ├── matterport_3d_160
+    │   ├── matterport_multiview_openseg
+    └── └── matterport_multiview_openseg_test
+└── output
+    ├── output_scannet
+    ├── output_scannet200
+    ├── output_nuscenes
+    └── output_matterport
 ```
 
 ## Citation
