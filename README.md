@@ -12,6 +12,27 @@ Recent vision-language pre-training models have exhibited remarkable generalizat
 ## News
 - **2024.07.02**: DMA is accepted by ECCV 2024!
 
+## Data Preparation 
+Download [Cityscapes](https://www.cityscapes-dataset.com/), [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/) and [SYNTHIA-RAND-CITYSCAPES](http://synthia-dataset.net/downloads/).
+
+We expect the folders to be like
+```
+└── data
+    ├── cityscapes
+    │   ├── annotations
+    │   ├── gtFine
+    │   └── leftImg8bit
+    ├── GTA5
+    │   ├── images
+    │   ├── labels
+    │   └── split.mat
+    ├── SYNTHIA
+    │   ├── GT
+    │   ├── RGB
+    └── └── meta.json
+
+```
+
 ## Citation
 If our work is useful for your research, please consider citing:
 
@@ -21,3 +42,6 @@ If our work is useful for your research, please consider citing:
         booktitle = {ECCV},
         year = {2024}
     }
+
+## Acknowledgement
+This project is based on [OpenScene](https://github.com/pengsongyou/openscene). Thanks for their awesome work.
