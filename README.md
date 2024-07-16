@@ -69,6 +69,8 @@ python -u evaluate.py   --config=./config/matterport/ours_openseg.yaml   feature
 ```bash
 python -u evaluate.py   --config=./config/matterport/test_40/80/160classes.yaml   feature_type distill  save_folder ./save
 ```
+## Qualitative Results
+![overview](docs/visualization.jpg)
 
 ## Citation
 If our work is useful for your research, please consider citing:
