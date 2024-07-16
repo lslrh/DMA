@@ -44,6 +44,32 @@ We expect the folders to be like
     └── output_matterport
 ```
 
+## Evaluation
+#Scannet
+```bash
+python -u evaluate.py   --config=./config/scannet/ours_openseg.yaml   feature_type distill  save_folder ./save
+```
+#Scannet200
+```bash
+python -u evaluate.py   --config=./config/scannet/ours_openseg_200.yaml   feature_type distill  save_folder ./save
+```
+#Scannet200-Head/Common/Tail classes
+```bash
+python -u evaluate.py   --config=./config/scannet/ours_openseg_200.yaml   feature_type distill  save_folder ./save class_split head/common/tail
+```
+#nuScenes
+```bash
+python -u evaluate.py   --config=./config/nuscenes/ours_openseg.yaml   feature_type distill  save_folder ./save
+```
+#matterport
+```bash
+python -u evaluate.py   --config=./config/matterport/ours_openseg.yaml   feature_type distill  save_folder ./save
+```
+#matterport 40/80/160 classes
+```bash
+python -u evaluate.py   --config=./config/matterport/test_40/80/160classes.yaml   feature_type distill  save_folder ./save
+```
+
 ## Citation
 If our work is useful for your research, please consider citing:
 
