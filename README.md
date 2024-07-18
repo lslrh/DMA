@@ -1,6 +1,6 @@
 # Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding, ECCV2024
 
-### [Paper]() 
+### [Paper](https://arxiv.org/abs/2407.09781) 
 
 This repo is the official implementation of the work DMA.
 
